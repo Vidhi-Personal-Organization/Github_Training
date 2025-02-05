@@ -1,0 +1,1 @@
+This is the file modified in VS code to understand git functionality using IDE
