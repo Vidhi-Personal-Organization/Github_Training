@@ -90,7 +90,9 @@ jobs:
         with:
      # Artifact name
           name: Build-Artifact
-          run : ls -al
           # A file / directory or wildcard patterns which says which file to upload 
           path: ${{github.workspace}}
+
+      - name: Varify the download
+        run: ls -al
   
